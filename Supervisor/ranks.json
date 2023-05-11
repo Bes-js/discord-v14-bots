@@ -1,0 +1,69 @@
+{
+    "ranks": [],
+    "tasks": [
+        {
+            "id": 1,
+            "type": "mesaj",
+            "duration": 604800000,
+            "count": 500,
+            "prizeCount": 50,
+            "channels": 0
+        },
+        {
+            "id": 2,
+            "type": "invite",
+            "duration": 604800000,
+            "count": 5,
+            "prizeCount": 30,
+            "channels": 0
+        },
+        {
+            "id": 3,
+            "type": "kayıt",
+            "duration": 604800000,
+            "count": 10,
+            "prizeCount": 25,
+            "channels": 0
+        },
+        {
+            "id": 4,
+            "type": "invite",
+            "duration": 6048000000,
+            "count": 15,
+            "prizeCount": 75,
+            "channels": 0
+        },
+        {
+            "id": 5,
+            "type": "taglı",
+            "duration": 604800000,
+            "count": 3,
+            "prizeCount": 30,
+            "channels": 0
+        },
+        {
+            "id": 7,
+            "type": "ses",
+            "duration": 604800000,
+            "count": 7200000,
+            "prizeCount": 15,
+            "channels": 0
+        },
+        {
+            "id": 8,
+            "type": "mesaj",
+            "duration": 6048000,
+            "count": 80,
+            "prizeCount": 10,
+            "channels": 0
+        },
+        {
+            "id": 9,
+            "type": "kayıt",
+            "duration": 604800000,
+            "count": 20,
+            "prizeCount": 50,
+            "channels": 0
+        }
+    ]
+}

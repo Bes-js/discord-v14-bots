@@ -1,0 +1,43 @@
+{
+  "name": "bes-v14-pm2-supervisor",
+  "version": "1.0.0",
+  "description": "Beş v14 PM2 Custom PM2 Bots",
+  "main": "beş.js",
+  "scripts": {
+    "test": "node beş.js",
+    "start": "node beş.js"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "author": "Beş",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@discordjs/formatters": "^0.2.0",
+    "@discordjs/voice": "^0.15.0",
+    "axios": "^1.4.0",
+    "canvafy": "^0.3.0",
+    "canvas": "^2.11.0",
+    "child_process": "^1.0.2",
+    "delay": "^5.0.0",
+    "discord-giveaways": "^6.0.1",
+    "discord.js": "^14.9.0",
+    "five.db": "^0.0.8",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^7.1.1",
+    "ms": "^2.1.3",
+    "node-schedule": "^2.1.1"
+  },
+  "keywords": [
+    "Beş#0005",
+    "Beş",
+    "Bes",
+    "5",
+    "v14",
+    "discord-v14",
+    "v14 bot",
+    "discord v14"
+  ]
+}

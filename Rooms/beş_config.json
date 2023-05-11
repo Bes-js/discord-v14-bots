@@ -1,0 +1,9 @@
+{
+  "token": "Discord Bot Tokeniniz",
+  "prefix": ".",
+  "voiceChannel":"Botun Bağlanacağı Ses Kanalı ID'si",
+  "kategoriID":"Özel Oda Kategorisinin ID'si",
+  "sunucuID":"Discord Sunucu ID'si",
+  "odaOlusturID":"Sesli Oda Oluşturma Kanalının ID'si",
+  "odaSure":120000
+}
