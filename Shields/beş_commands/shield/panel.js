@@ -9,7 +9,7 @@ module.exports = {
     aliases: ["backups", "yedekle", "yedek", "backup", "yt-kapat", "izinler"],
     execute: async (client, message, args, beş_embed) => {
         conf.botOwners.push(message.guild.ownerId)
-        if(conf.botOwners.some(bes => message.author.id !== bes))return message.reply({content:`> **Komudu Kullanmak İçin Yetkin Yetersiz!**`})
+        if(!conf.botOwners.some(bes => message.author.id == bes))return message.reply({content:`> **Komudu Kullanmak İçin Yetkin Yetersiz!**`})
 
         message.react(`✅`)
         const beş_buttons = new ActionRowBuilder()
