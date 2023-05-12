@@ -6,7 +6,7 @@ module.exports = {
     aliases: ["rol-setup", "rolkur", "rolkurulum","role-setup"],
     execute: async (client, message, args, beş_embed) => {
         conf.botOwners.push(message.guild.ownerId)
-        if(conf.botOwners.some(bes => message.author.id !== bes))return message.reply({content:`> **Komudu Kullanmak İçin Yetkin Yetersiz!**`})
+        if(!conf.botOwners.some(bes => message.author.id == bes))return message.reply({content:`> **Komudu Kullanmak İçin Yetkin Yetersiz!**`})
         let role = args[0];
         if (!role || isNaN(role)) return message.reply({ content: `> **Doğru Bir Değer Giriniz!**\n> \`${conf.prefix}rol-kur <Rol ID>\`` })
         let data = await db.get(`roleBackup_${message.guild.id}_${role}`)
