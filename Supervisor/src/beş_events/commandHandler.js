@@ -8,8 +8,8 @@ module.exports = async (message) => {
     if(chatChannel && message.channel.id == chatChannel) return;
     let unregisterRoles = await db.get("five-unregister-roles") || [];
     let jailRoles = await db.get("five-jail-roles") || [];
-    if(unregisterRoles.length > 0 && jailRoles.length > 0 && unregisterRoles.some(bes => message.member.roles.cache.has(bes)) || jailRoles.some(bes => message.member.roles.cache.has(bes)))return client.false(message);
     if (beş_config.prefix && !message.content.startsWith(beş_config.prefix))return;
+    if(unregisterRoles.length > 0 && jailRoles.length > 0 && unregisterRoles.some(bes => message.member.roles.cache.has(bes)) || jailRoles.some(bes => message.member.roles.cache.has(bes)))return client.false(message);
     const args = message.content.slice(1).trim().split(/ +/g);
     const commands = args.shift().toLowerCase();
     const cmd = client.commands.get(commands) || [...client.commands.values()].find((e) => e.aliases && e.aliases.includes(commands));
