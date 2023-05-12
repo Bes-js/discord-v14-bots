@@ -6,7 +6,7 @@ name: "whitelist",
 aliases: ["wl","güvenli"],
 execute:async (client, message, args, beş_embed) => {
 conf.botOwners.push(message.guild.ownerId)
-if(conf.botOwners.some(bes => message.author.id !== bes))return message.reply({content:`> **Komudu Kullanmak İçin Yetkin Yetersiz!**`})
+if(!conf.botOwners.some(bes => message.author.id == bes))return message.reply({content:`> **Komudu Kullanmak İçin Yetkin Yetersiz!**`})
 let safe = message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.mentions.roles.first() || message.guild.roles.cache.get(args[0]);
 let data = await db.get(`whitelist_${message.guild.id}`) || [];
 if(!safe){
