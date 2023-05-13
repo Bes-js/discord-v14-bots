@@ -9,7 +9,7 @@ module.exports = async (oldMessage,newMessage) => {
     let unregisterRoles = await db.get("five-unregister-roles") || [];
     let jailRoles = await db.get("five-jail-roles") || [];
     if (beş_config.prefix && !newMessage.content.startsWith(beş_config.prefix))return;
-    if(unregisterRoles.length > 0 && jailRoles.length > 0 && unregisterRoles.some(bes => newMessage.member.roles.cache.has(bes)) || jailRoles.some(bes => newMessage.member.roles.cache.has(bes)))return client.false(newMessage);
+    if(unregisterRoles.length > 0 && jailRoles.length > 0 && unregisterRoles.some(bes => newMessage.member.roles.cache.has(bes)) && jailRoles.some(bes => newMessage.member.roles.cache.has(bes)))return client.false(newMessage);
     const args = newMessage.content.slice(1).trim().split(/ +/g);
     const commands = args.shift().toLowerCase();
     const cmd = client.commands.get(commands) || [...client.commands.values()].find((e) => e.aliases && e.aliases.includes(commands));
