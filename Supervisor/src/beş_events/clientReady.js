@@ -44,13 +44,17 @@ if (voiceTop.length > 0) {
 		.setUsersData(voiceTop)
 		.build();
 }
+if (messageTop.length > 0) {
 mesaj.then(mr => {
 if(mr){mr.edit({content:`> **${client.emoji("emote_chat") !== null ? client.emoji("emote_chat"):"💭"} Mesaj Sıralaması <t:${Math.floor(Date.now()/1000)}:R> Güncellendi!**`,files:[{attachment:messageTopCanvas.toBuffer(),name:"bes-was-here.png"}]})
 }});
+}
+if (voiceTop.length > 0) {
 ses.then(mr => {
 if(mr){mr.edit({content:`> **${client.emoji("emote_voice") !== null ? client.emoji("emote_voice"):"🔉"} Ses Sıralaması <t:${Math.floor(Date.now()/1000)}:R> Güncellendi!**`,files:[{attachment:voiceTopCanvas.toBuffer(),name:"bes-was-here.png"}]})
 }});
-}, 10000);
+}
+}, 30000);
     const bannedTag = client.commands.find(bes => bes.name == "yasaklıtag");
     if(bannedTag){setInterval(() => {bannedTag.fives(client,client.guilds.cache.get(beş_config.guildID))}, 5000)}
 	scheduleJob("00 00 00 * * *", () => {
