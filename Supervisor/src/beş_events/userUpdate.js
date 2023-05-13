@@ -6,12 +6,11 @@ const ms = require('ms');
 module.exports = async (oldUser,newUser) => {
     let familyRoles = await db.get("five-family-roles") || [];
     let tagData = await db.get("five-tags") || [];
-    let logChannel = await db.get("five-channel-log");
     let chatChannel = await db.get("five-channel-chat");
-    if (!tagData.length > 0 || !familyRoles.length > 0 || !logChannel || !chatChannel) return;
+    if (!tagData.length > 0 || !familyRoles.length > 0 || !chatChannel) return;
     if (oldUser.tag == newUser.tag || oldUser.bot || newUser.bot) return;
 
-    let log = client.channels.cache.get(logChannel)
+    let log = client.kanalbul("family-log")
     let chat = client.channels.cache.get(chatChannel)
 
     let Guild = client.guilds.cache.get(beş_config.guildID)
