@@ -22,7 +22,7 @@ module.exports = {
       beş_embed.setThumbnail(member.user.displayAvatarURL({ dynamic: true, size: 2048 }))
       beş_embed.setDescription(`> **${member.user.toString()} Kullanıcısının Davet Verileri;**\n \n`)
       .addFields(
-      { name: `${client.emoji("emote_invite") !== null ? client.emoji("emote_invite"):"📩"} • **Toplam Davet**`,  value: codeBlock("js",`Gerçek: ${davet.Regular}, Sahte: ${davet.Fake}, Ayrılan: ${davet.Left}, Bonus: ${davet.Bonus}`)}
+      { name: `${client.emoji("emote_invite") !== null ? client.emoji("emote_invite"):"📩"} • **Toplam Davet**`,  value: codeBlock("js",`Gerçek: ${davet ? davet.Regular : 0}, Sahte: ${davet ? davet.Fake :0}, Ayrılan: ${davet ? davet.Left : 0}, Bonus: ${davet ? davet.Bonus : 0}`)}
       )
       return message.reply({embeds: [beş_embed]})
 
