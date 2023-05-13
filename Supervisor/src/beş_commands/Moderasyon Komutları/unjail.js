@@ -3,10 +3,10 @@ const beş_config = require("../../../beş_config")
 const client = global.client;
 const db = client.db;
 module.exports = {
-    name: "jail",
-    usage:"jail [@Beş / ID] <sebep>",
+    name: "unjail",
+    usage:"unjail [@Beş / ID] <sebep>",
     category:"moderasyon",
-    aliases: ["jails", "cezalı","ceza"],
+    aliases: ["unjails", "uncezalı","unceza","ceza-kaldır","cezakaldır"],
     execute: async (client, message, args, beş_embed) => {
         var member = message.mentions.members.first() || message.guild.members.cache.get(args[0]);
         let reason = args.slice(1).join(' ');
