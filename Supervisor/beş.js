@@ -388,7 +388,7 @@ client.getTaskMessage = (type, count, channels) => {
       taskMessage = `**Sunucumuza ${count} Kişi Davet Et!**`;
       break;
     case "mesaj":
-      taskMessage = `**${db.has("five-channel-chat") ? `<#${db.get("five-channel-chat")}` : "Genel Sohbet"} Kanalına ${count} Mesaj at!**`;
+      taskMessage = `**${db.has("five-channel-chat") ? `<#${db.get("five-channel-chat")}>` : "Genel Sohbet"} Kanalına ${count} Mesaj at!**`;
       break;
     case "ses":
       taskMessage = `**Ses Kanallarında ${count / 1000 / 60} Dakika Süre Geçir!**`;
