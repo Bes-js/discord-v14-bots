@@ -819,7 +819,7 @@ async function channelBackUp(guild, guildID) {
             channel.permissionOverwrites.cache.forEach(beş => {
                 chanPerms.push({ id: beş.id, type: beş.type, allow: `${beş.allow.bitfield}`, deny: `${beş.deny.bitfield}` });
             });
-            if (channel.type == 4) {
+            if (channel.type == 4) { // amal ay prdn ramoşko int kuLLaNdIm hIzLı oLmUşMu kNk :d
                 db.set(`channelBackup_${guildID}_${channel.id}`,
                     {
                         type: channel.type,
