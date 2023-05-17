@@ -19,7 +19,7 @@ let url = member.guild.premiumTier == 3 ? await member.guild.fetchVanityData().t
 if (invite == null || invite == undefined || !invite ) {
 fiveSender(`**${member.user.tag} Adlı Kullanıcı <t:${Math.floor(Date.now()/1000)}:R> Sunucuya Katıldı!**\n> **\`Davet Eden;\` Bulunamadı**`)
 }else if(invite == member.guild.vanityURLCode){
-await inviteDatas.findOneAndUpdate({guildId: member.guild.id, userId: member.id }, { $inc: { "inviter": member.guild.id } }, { upsert: true });
+await inviteDatas.findOneAndUpdate({guildId: member.guild.id, userId: member.id }, { $inc: { inviter: member.guild.id } }, { upsert: true });
 fiveSender(`**${member.user.tag} Adlı Kullanıcı <t:${Math.floor(Date.now()/1000)}:R> Sunucuya Katıldı!**\n> **\`Davet Eden;\` Özel URL ( Toplam Daveti ${client.sayıEmoji(url)} )**`)
 }else {
 if(invite.inviter.id == member.user.id){
