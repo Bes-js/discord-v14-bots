@@ -2,7 +2,7 @@
 
 **Discord sunucularınızda kullanabileceğiniz setuplı son model v14 pm2 botları.**
 <br> </br>
-[![Discord Presence](https://lanyard-profile-readme.vercel.app/api/928259219038302258?theme=light&hideDiscrim=false&hideBadges=false&bg=376074&borderRadius=30px&idleMessage=İletişim%20İçin%20Tıkla)](https://discord.com/users/928259219038302258)
+[![Discord Presence](https://lanyard-profile-readme.vercel.app/api/928259219038302258?theme=dark&hideDiscrim=false&hideBadges=false&bg=000000&borderRadius=35px&idleMessage=İletişim%20İçin%20Tıkla)](https://discord.com/users/928259219038302258)
 <br> </br>
 [![Discord Banner](https://api.weblutions.com/discord/invite/luppux/)](https://discord.gg/luppux)
 <br> </br>
