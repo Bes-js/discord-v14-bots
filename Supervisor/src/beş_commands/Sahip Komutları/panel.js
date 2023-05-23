@@ -451,7 +451,7 @@ ${db.has("five-welcome-mentions") ? "+" : "-"} Welcome Rol Etiket; ${db.has("fiv
             }else if (secim == "17") {
                 let roles = message.mentions.roles.first();
                 if (isNaN(args[1]) && args[1] == "sıfırla") {
-                    db.delete("five-firstyt-roles")
+                    db.delete("five-jail-roles")
                     return message.reply({ content: `> **✅ Başarılı!**\n> **Veri Sıfırlandı!**` })
                 }
                 if (!roles) return message.reply({ content: `> **❌ Hatalı Kullanım!**\n> **\`Örnek;\` ${beş_config.prefix}setup 17 @rol**` })
