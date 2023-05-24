@@ -1,5 +1,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Delicious+Handrawn&size=60&pause=1000&color=00F743&repeat=false&width=800&height=100&lines=Discord+V14+PM2+Bots+%23By+Be%C5%9F)](#)
 
+<a href="#zort">Çakma Coderları Görmek İçin Tıkla!</a>
+
 **Discord sunucularınızda kullanabileceğiniz setuplı son model v14 pm2 botları.**
 <br> </br>
 [![Discord Presence](https://lanyard-profile-readme.vercel.app/api/928259219038302258?theme=dark&hideDiscrim=false&hideBadges=false&bg=000000&borderRadius=35px&idleMessage=İletişim%20İçin%20Tıkla)](https://discord.com/users/928259219038302258)
@@ -32,7 +34,7 @@ npm install
 <br> </br>
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Delicious+Handrawn&size=30&pause=1000&color=F700E5&repeat=false&width=435&lines=%F0%9F%96%BC%EF%B8%8F+G%C3%B6rseller)](#)
 
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1090923072644722739/2023-03-30_11-49-54.png">
+<img id="zort" src="https://cdn.discordapp.com/attachments/950167988127006821/1090923072644722739/2023-03-30_11-49-54.png">
 <img  src="https://cdn.discordapp.com/attachments/950167988127006821/1090923072153989140/2023-03-30_11-50-50.png">
 <img  src="https://cdn.discordapp.com/attachments/950167988127006821/1090923070660808704/2023-03-30_11-52-39.png">
 <img  src="https://cdn.discordapp.com/attachments/950167988127006821/1090923072430800956/2023-03-30_11-50-09.png">
@@ -65,7 +67,8 @@ npm install
 <img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017904566177822/2023-05-10_00-42-57.png">
 <img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017904293564446/2023-05-10_13-57-59.png">
 
-<h1>Bu Altyapıyı Normalde Chavo'la Burjuva'ya Yapmıştım, Ama Görünen O Ki Heryerde Herkese Altyapıyı Biz Yazdık Diyorlarmış,Siktirin Ordan mq</h1>
+
+<h1 id="zort">Bu Altyapıyı Normalde Chavo'la Burjuva'ya Yapmıştım, Ama Görünen O Ki Heryerde Herkese Altyapıyı Biz Yazdık Diyorlarmış,Siktirin Ordan mq</h1>
 <h1>Kodla İlgili Bi Sik Bilmeyenlere Altyapımı Kaptırtmam!</h1>
 
 <img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111023648590016592/2023-05-24_23-10-15.png">
@@ -83,4 +86,6 @@ npm install
 
 - [Discord Profilim](https://discord.com/users/928259219038302258)
 
-- Herhangi bir hata bulmanız durumunda bana ulaşabilirsiniz ^^
+- Herhangi bir hata bulmanız durumunda luppux'a ulaşabilirsiniz ^^
+<br> </br>
+[![Discord Banner](https://api.weblutions.com/discord/invite/luppux/)](https://discord.gg/luppux)
