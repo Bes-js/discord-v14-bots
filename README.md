@@ -11,6 +11,7 @@
 
 - İlk olarak bilgisayarına [Node JS](https://nodejs.org/en/) `(en düşük v16)` indir.
 
+- ⚠️ Altyapı Lisanslı, Paylaşım vb. Olursa Donunuza Kadar Alırım.
 - Daha sonra altyapıyı indirip `./beş_config.js` dosyalarını doldurun.
 - sonrasında modülleri kurmak için terminale aşşağıdaki kodu yaz.
 
@@ -32,9 +33,46 @@ npm install
 <img  src="https://cdn.discordapp.com/attachments/950167988127006821/1090923070660808704/2023-03-30_11-52-39.png">
 <img  src="https://cdn.discordapp.com/attachments/950167988127006821/1090923072430800956/2023-03-30_11-50-09.png">
 <img  src="https://cdn.discordapp.com/attachments/950167988127006821/1090923070388187137/2023-03-30_11-53-32.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1090923070899879946/2023-03-30_11-51-59.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1090921905428631632/2023-03-30_11-51-45.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1090921905642553384/2023-03-30_11-51-22.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019623370993684/2023-05-24_22-52-44.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019623085776916/2023-05-24_22-53-00.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019622808948898/2023-05-24_22-53-25.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019622574076084/2023-05-24_22-54-15.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019603276087406/2023-05-24_22-49-44.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019602986664047/2023-05-24_22-49-59.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019602634350694/2023-05-24_22-50-15.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019602328174602/2023-05-24_22-50-28.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019602072305775/2023-05-24_22-50-51.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019601736769576/2023-05-24_22-51-04.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019601459953674/2023-05-24_22-51-20.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019601166336071/2023-05-24_22-51-40.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019600843382954/2023-05-24_22-52-19.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019600604315688/2023-05-24_22-52-33.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017991707033701/2023-05-10_00-42-57.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017991077888060/2023-05-10_13-58-26.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017991396659340/2023-05-10_13-58-10.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017906407493682/2023-05-01_23-34-57.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017906227134504/2023-05-02_13-18-26.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017906029989918/2023-05-02_13-18-38.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017905824485526/2023-05-03_17-47-06.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017905585405952/2023-05-04_15-51-31.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017905375678554/2023-05-07_17-03-27.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017905065316512/2023-05-07_17-10-29.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017904843014225/2023-05-07_17-10-49.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017904566177822/2023-05-10_00-42-57.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017904293564446/2023-05-10_13-57-59.png">
+
+<h1>Bu Altyapıyı Normalde Chavo'la Burjuva'ya Yapmıştım, Ama Görünen O Ki Heryerde Herkese Altyapıyı Biz Yazdık Diyorlarmış,Siktirin Ordan mq</h1>
+<h1>Kodla İlgili Bi Sik Bilmeyenlere Altyapımı Kaptırtmam!</h1>
+
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111023648590016592/2023-05-24_23-10-15.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111022997130719313/2023-05-24_23-07-01.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111022997361393714/2023-05-24_23-05-05.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111022997562740766/2023-05-24_23-04-21.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111022997789225031/2023-05-24_23-03-03.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111022997998927912/2023-05-24_23-02-04.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111022998271578142/2023-05-23_23-17-11.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111022998510645248/2023-05-18_15-22-25.png">
+ 
 
   
 
