@@ -177,7 +177,7 @@ ${db.has("five-welcome-mentions") ? "+" : "-"} Welcome Rol Etiket; ${db.has("fiv
 
 
         if (!secim) {
-            let mesaj = await mesajx.edit({ content:``,components: [secimButtons1, secimButtons2, secimMenu], embeds: [new EmbedBuilder().setImage("attachment://bes-server-setup.png").setColor("Random").setDescription(`> **Bir İşlem Seçiniz!**`)], files: [{ attachment: canvasPanel.toBuffer(), name: "bes-server-setup.png" }]})
+            let mesaj = await mesajx.edit({ content:``,components: [secimButtons1, secimButtons2, secimMenu], embeds: [new EmbedBuilder().setImage("attachment://bes-server-setup.png").setColor("Random").setDescription(`> **Bir İşlem Seçiniz!**`)], files: [{ attachment: canvasPanel, name: "bes-server-setup.png" }]})
             const collector = mesaj.createMessageComponentCollector({ filter: i => i.user.id === message.member.id, time: 30000 });
             collector.on('end',async(beş) =>{
             if(beş.size == 0) mesaj.delete();
