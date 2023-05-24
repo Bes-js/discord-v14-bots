@@ -11,7 +11,7 @@ voiceChannelID:"", // Ses Kanal ID'si
 botOwners:[], // Bot Sahiplerinin ID'leri
 prefix:".", // Botun Prefix'i
 presence: "Beşş",// Botun Durumu
-WebHookURL:"https://discord.com/api/webhooks/1106243819290235031/u3fA51TBdwxbgg3kqK2qKyvePC9WPzjou6hsdXEee0ew8GVDS0AzHWzVQKOk46-8b-hn", // guard-log Kanalında Oluşturulmuş Webhook URL'si
+WebHookURL:"", // guard-log Kanalında Oluşturulmuş Webhook URL'si
 autoBackup:true, // Otomatik Backup (Sunucu Yedek) Alma Sistemi | true = Aktif / false = Deaktif
 
 jailRoles:[], // Jail Rolünün ID'leri
