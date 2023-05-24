@@ -30,7 +30,7 @@
         "node-schedule": "^2.1.1"
     },
     "name": "bes-v14-pm2-bots",
-    "descriptions": "Beş v14 PM2 Custom PM2 Bots",
+    "descriptions": "Beş v14 PM2 Bots",
     "version": "1.0.0",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
