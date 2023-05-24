@@ -21,7 +21,7 @@ module.exports = {
           .setTitle(durum.details)
           .build();
         
-          return message.reply({files:[{name:"canvafy.png",attachment:spotify.toBuffer()}],embeds: [beş_embed.setImage('attachment://canvafy.png')] });
+          return message.reply({files:[{name:"canvafy.png",attachment:spotify}],embeds: [beş_embed.setImage('attachment://canvafy.png')] });
         }else{ return message.reply({embeds: [beş_embed.setDescription(`> **Kullanıcı Spotify Üzerinde Şarkı Dinlemiyor!**`)] });}
 
     }
