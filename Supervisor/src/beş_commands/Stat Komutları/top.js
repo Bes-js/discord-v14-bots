@@ -267,11 +267,11 @@ module.exports = {
                 .build();
         }*/
 
-        if (inviteTop.length > 0 && args[0] && args[0] === "davet" || args[0] === "invite" || args[0] === "inv") return mesaj.edit({ content:``,embeds: [returndavet], files: [{ attachment: inviteTopCanvas.toBuffer(), name: "return-invite.png" }] })
-        if (voiceTop.length > 0 && args[0] && args[0] === "ses" || args[0] === "voice" || args[0] === "vc" || args[0] === "s" || args[0] === "v") return mesaj.edit({content:``, embeds: [returnvoice], files: [{ attachment: voiceTopCanvas.toBuffer(), name: "return-voice.png" }] })
-        if (messageTop.length > 0 && args[0] && args[0] === "mesaj" || args[0] === "message" || args[0] === "msg" || args[0] === "m" || args[0] === "chat") return mesaj.edit({content:``, embeds: [returnmessage], files: [{ attachment: messageTopCanvas.toBuffer(), name: "return-message.png" }] })
-        if (cameraTop.length > 0 && args[0] && args[0] === "camera" || args[0] === "kamera" || args[0] === "cam" || args[0] === "webcam" || args[0] === "cmr") return mesaj.edit({content:``, embeds: [returnkamera], files: [{ attachment: cameraTopCanvas.toBuffer(), name: "return-camera.png" }] })
-        if (streamTop.length > 0 && args[0] && args[0] === "yayın" || args[0] === "stream" || args[0] === "streamer" || args[0] === "strm" || args[0] === "yayınlar") return mesaj.edit({ content:``,embeds: [returnyayın], files: [{ attachment: streamTopCanvas.toBuffer(), name: "return-stream.png" }] })
+        if (inviteTop.length > 0 && args[0] && args[0] === "davet" || args[0] === "invite" || args[0] === "inv") return mesaj.edit({ content:``,embeds: [returndavet], files: [{ attachment: inviteTopCanvas, name: "return-invite.png" }] })
+        if (voiceTop.length > 0 && args[0] && args[0] === "ses" || args[0] === "voice" || args[0] === "vc" || args[0] === "s" || args[0] === "v") return mesaj.edit({content:``, embeds: [returnvoice], files: [{ attachment: voiceTopCanvas, name: "return-voice.png" }] })
+        if (messageTop.length > 0 && args[0] && args[0] === "mesaj" || args[0] === "message" || args[0] === "msg" || args[0] === "m" || args[0] === "chat") return mesaj.edit({content:``, embeds: [returnmessage], files: [{ attachment: messageTopCanvas, name: "return-message.png" }] })
+        if (cameraTop.length > 0 && args[0] && args[0] === "camera" || args[0] === "kamera" || args[0] === "cam" || args[0] === "webcam" || args[0] === "cmr") return mesaj.edit({content:``, embeds: [returnkamera], files: [{ attachment: cameraTopCanvas, name: "return-camera.png" }] })
+        if (streamTop.length > 0 && args[0] && args[0] === "yayın" || args[0] === "stream" || args[0] === "streamer" || args[0] === "strm" || args[0] === "yayınlar") return mesaj.edit({ content:``,embeds: [returnyayın], files: [{ attachment: streamTopCanvas, name: "return-stream.png" }] })
        // if (registerTop.length > 0 && args[0] && args[0] === "kayıt" || args[0] === "reg" || args[0] === "register" || args[0] === "welcome" || args[0] === "kayıtlar") return mesaj.edit({ content:``,embeds: [returnregister], files: [{ attachment: registerTopCanvas.toBuffer(), name: "return-register.png" }] })
 
 
@@ -315,60 +315,60 @@ module.exports = {
 
             if (value == "gunses") {
                 if (voiceDailyTop.length == 0) return b.update({ embeds: [new EmbedBuilder().setDescription(`> **Hiç Veri Bulunmamakta Sıralamayı Gösteremiyorum!**`).setColor("#ff0000")], files: [] })
-                b.update({ embeds: [dayvoice], files: [{ attachment: voiceDailyTopCanvas.toBuffer(), name: "day-voice.png" }] })
+                b.update({ embeds: [dayvoice], files: [{ attachment: voiceDailyTopCanvas, name: "day-voice.png" }] })
             }
 
             if (value == "gunchat") {
                 if (messageDailyTop.length == 0) return b.update({ embeds: [new EmbedBuilder().setDescription(`> **Hiç Veri Bulunmamakta Sıralamayı Gösteremiyorum!**`).setColor("#ff0000")], files: [] })
-                b.update({ embeds: [daychat], files: [{ attachment: messageDailyTopCanvas.toBuffer(), name: "day-chat.png" }] })
+                b.update({ embeds: [daychat], files: [{ attachment: messageDailyTopCanvas, name: "day-chat.png" }] })
             }
             if (value == "haftases") {
                 if (voiceWeeklyTop.length == 0) return b.update({ embeds: [new EmbedBuilder().setDescription(`> **Hiç Veri Bulunmamakta Sıralamayı Gösteremiyorum!**`).setColor("#ff0000")], files: [] })
-                b.update({ embeds: [weekvoice], files: [{ attachment: voiceWeeklyTopCanvas.toBuffer(), name: "week-voice.png" }] })
+                b.update({ embeds: [weekvoice], files: [{ attachment: voiceWeeklyTopCanvas, name: "week-voice.png" }] })
             }
 
             if (value == "haftachat") {
                 if (messageWeeklyTop.length == 0) return b.update({ embeds: [new EmbedBuilder().setDescription(`> **Hiç Veri Bulunmamakta Sıralamayı Gösteremiyorum!**`).setColor("#ff0000")], files: [] })
-                b.update({ embeds: [weekchat], files: [{ attachment: messageWeeklyTopCanvas.toBuffer(), name: "week-chat.png" }] })
+                b.update({ embeds: [weekchat], files: [{ attachment: messageWeeklyTopCanvas, name: "week-chat.png" }] })
             }
 
             if (value == "toplamses") {
                 if (voiceTop.length == 0) return b.update({ embeds: [new EmbedBuilder().setDescription(`> **Hiç Veri Bulunmamakta Sıralamayı Gösteremiyorum!**`).setColor("#ff0000")], files: [] })
-                b.update({ embeds: [returnvoice], files: [{ attachment: voiceTopCanvas.toBuffer(), name: "return-voice.png" }] })
+                b.update({ embeds: [returnvoice], files: [{ attachment: voiceTopCanvas, name: "return-voice.png" }] })
             }
             if (value == "toplamchat") {
                 if (messageTop.length == 0) return b.update({ embeds: [new EmbedBuilder().setDescription(`> **Hiç Veri Bulunmamakta Sıralamayı Gösteremiyorum!**`).setColor("#ff0000")], files: [] })
-                b.update({ embeds: [returnmessage], files: [{ attachment: messageTopCanvas.toBuffer(), name: "return-message.png" }] })
+                b.update({ embeds: [returnmessage], files: [{ attachment: messageTopCanvas, name: "return-message.png" }] })
             }
 
             if (value == "davet") {
                 if (inviteTop.length == 0) return b.update({ embeds: [new EmbedBuilder().setDescription(`> **Hiç Veri Bulunmamakta Sıralamayı Gösteremiyorum!**`).setColor("#ff0000")], files: [] })
-                b.update({ embeds: [returndavet], files: [{ attachment: inviteTopCanvas.toBuffer(), name: "return-invite.png" }] })
+                b.update({ embeds: [returndavet], files: [{ attachment: inviteTopCanvas, name: "return-invite.png" }] })
             }
 
             if (value == "kamera") {
                 if (cameraTop.length == 0) return b.update({ embeds: [new EmbedBuilder().setDescription(`> **Hiç Veri Bulunmamakta Sıralamayı Gösteremiyorum!**`).setColor("#ff0000")], files: [] })
-                b.update({ embeds: [returnkamera], files: [{ attachment: cameraTopCanvas.toBuffer(), name: "return-camera.png" }] })
+                b.update({ embeds: [returnkamera], files: [{ attachment: cameraTopCanvas, name: "return-camera.png" }] })
             }
 
             if (value == "yayın") {
                 if (streamTop.length == 0) return b.update({ embeds: [new EmbedBuilder().setDescription(`> **Hiç Veri Bulunmamakta Sıralamayı Gösteremiyorum!**`).setColor("#ff0000")], files: [] })
-                b.update({ embeds: [returnyayın], files: [{ attachment: streamTopCanvas.toBuffer(), name: "return-stream.png" }] })
+                b.update({ embeds: [returnyayın], files: [{ attachment: streamTopCanvas, name: "return-stream.png" }] })
             }
 
             if (value == "seskanal") {
                 if (voiceChannelTop.length == 0) return b.update({ embeds: [new EmbedBuilder().setDescription(`> **Hiç Veri Bulunmamakta Sıralamayı Gösteremiyorum!**`).setColor("#ff0000")], files: [] })
-                b.update({ embeds: [chanvoice], files: [{ attachment: voiceChannelTopCanvas.toBuffer(), name: "chan-voice.png" }] })
+                b.update({ embeds: [chanvoice], files: [{ attachment: voiceChannelTopCanvas, name: "chan-voice.png" }] })
             }
 
             if (value == "mesajkanal") {
                 if (messageChannelTop.length == 0) return b.update({ embeds: [new EmbedBuilder().setDescription(`> **Hiç Veri Bulunmamakta Sıralamayı Gösteremiyorum!**`).setColor("#ff0000")], files: [] })
-                b.update({ embeds: [chanmessage], files: [{ attachment: messageChannelTopCanvas.toBuffer(), name: "chan-message.png" }] })
+                b.update({ embeds: [chanmessage], files: [{ attachment: messageChannelTopCanvas, name: "chan-message.png" }] })
             }
 
             if (value == "kayıt") {
                 if (registerTop.length == 0) return b.update({ embeds: [new EmbedBuilder().setDescription(`> **Hiç Veri Bulunmamakta Sıralamayı Gösteremiyorum!**`).setColor("#ff0000")], files: [] })
-                b.update({ embeds: [returnregister], files: [{ attachment: registerTopCanvas.toBuffer(), name: "return-register.png" }] })
+                b.update({ embeds: [returnregister], files: [{ attachment: registerTopCanvas, name: "return-register.png" }] })
             }
         })
 
