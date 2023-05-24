@@ -53,7 +53,7 @@ const welcome = await new canvafy.WelcomeLeave()
 .setAvatarBorder(beş_config.welcomeResimRenk)
 .setOverlayOpacity(0.65)
 .build();
-member.guild.channels.cache.get(welcomeChannel).send({files:[{attachment: welcome.toBuffer(),name: `bes_welcome_${member.id}.png`}],content:beşWelcomeMessage});
+member.guild.channels.cache.get(welcomeChannel).send({files:[{attachment: welcome,name: `bes_welcome_${member.id}.png`}],content:beşWelcomeMessage});
 }else{
 member.guild.channels.cache.get(welcomeChannel).send({content:beşWelcomeMessage});
 }
