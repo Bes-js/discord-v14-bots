@@ -24,7 +24,7 @@ module.exports = {
             message.reply({
               content:`> **     ${message.author.tag} ❓ ${user.user.tag}**`,
               files: [{
-                attachment: ship.toBuffer(),
+                attachment: ship,
                 name: `ship-${message.member.id}.png`
               }]
             });
