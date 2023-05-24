@@ -79,6 +79,8 @@ npm install
 <img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111022997998927912/2023-05-24_23-02-04.png">
 <img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111022998271578142/2023-05-23_23-17-11.png">
 <img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111022998510645248/2023-05-18_15-22-25.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111056776612294756/2023-05-24_22-45-50.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111056777023328316/2023-05-24_22-45-34.png">
  
 
   
