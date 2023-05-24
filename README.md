@@ -26,6 +26,10 @@ npm install
 - `.setup 1 sıfırla ` yaparsanız 1.ID'deki veriyi temizler.
 <br> </br>
 <br> </br>
+- Welcome Botlar [acarfx](https://github.com/acarfx)'e Ait.
+- Yetki Yükseltimide Githubdan Bi Repodan Kopyaladım Unuttum Adını,Herkeste Olan Şey İşte.
+<br> </br>
+<br> </br>
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Delicious+Handrawn&size=30&pause=1000&color=F700E5&repeat=false&width=435&lines=%F0%9F%96%BC%EF%B8%8F+G%C3%B6rseller)](#)
 
 <img  src="https://cdn.discordapp.com/attachments/950167988127006821/1090923072644722739/2023-03-30_11-49-54.png">
