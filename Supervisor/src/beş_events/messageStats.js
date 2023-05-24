@@ -16,12 +16,12 @@ let data = messageData ? messageData.topStat : 0;
 if(client.rolinc("chat bronze") && data >= 200 && data < 750){
 if(message.member.roles.cache.has(client.rolinc("chat bronze").id))return;
 message.member.roles.add(client.rolinc("chat bronze").id).catch(err => { })
-message.reply({content:`> **🥉 Altın Chat Seviyesine Ulaştın!**`})
+message.reply({content:`> **🥉 Bronz Chat Seviyesine Ulaştın!**`})
 }
 if(client.rolinc("chat silver") && data >= 750 && data < 1750){
 if(message.member.roles.cache.has(client.rolinc("chat silver").id))return;
 message.member.roles.add(client.rolinc("chat silver").id).catch(err => { })
-message.reply({content:`> **🥈 Altın Chat Seviyesine Ulaştın!**`})
+message.reply({content:`> **🥈 Gümüş Chat Seviyesine Ulaştın!**`})
 }
 if(client.rolinc("chat gold") && data >= 1750 && data < 5000){
 if(message.member.roles.cache.has(client.rolinc("chat gold").id))return;
