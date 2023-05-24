@@ -21,7 +21,7 @@ module.exports = {
           .setTitle(durum.details)
           .build();
         
-          return message.reply({files:[{name:"canvafy.png",attachment:spotify.toBuffer()}],embeds: [beş_embed.setDescription(
+          return message.reply({files:[{name:"canvafy.png",attachment:spotify}],embeds: [beş_embed.setDescription(
             `**
             • Kullanıcı: (<@${member.id}> - \`${member.id}\`) (${member.roles.highest})
             • Sunucuya Katılım Sırası: ${(message.guild.members.cache.filter(a => a.joinedTimestamp <= member.joinedTimestamp).size).toLocaleString()}/${(message.guild.memberCount).toLocaleString()}
