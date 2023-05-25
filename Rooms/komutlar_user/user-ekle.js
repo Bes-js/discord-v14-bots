@@ -24,7 +24,7 @@ module.exports = {
             Speak:true
         });
         client.db.push(`members_${data}`,member.id)
-        interaction.reply({content:`> **${member} Kullanıcısı Kanala Başarıyla Eklendi!**`,ephemeral:true})
+        interaction.reply({content:`> **${member} Kullanıcısı Kanala Başarıyla Eklendi!**`,ephemeral:true});
 
       
 }
