@@ -70,7 +70,7 @@ module.exports = {
             )
 
         const canvasPanel = await new canvafy.Rank()
-            .setAvatar(message.guild.iconURL({ forceStatic: true, extension: "png" }))
+            .setAvatar(`${message.guild.iconURL({ forceStatic: true, extension: "png" }) !== null ? message.guild.iconURL({ forceStatic: true, extension: "png" }) : beş_config.shipArkaplan}`)
             .setBackground("image", `${message.guild.bannerURL({extension:"png",size:2048}) !== null ? message.guild.bannerURL({extension:"png",size:2048}) : beş_config.shipArkaplan}`)
             .setUsername(message.guild.name)
             .setCustomStatus("#f0f0f0")
