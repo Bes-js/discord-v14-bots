@@ -1,7 +1,9 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Delicious+Handrawn&size=60&pause=1000&color=00F743&repeat=false&width=800&height=100&lines=Discord+V14+PM2+Bots+%23By+Be%C5%9F)](#)
 
-<a href="#zort">Çakma Coderları Görmek İçin Tıkla!</a>
-
+<a href="#zort">[ 🤓 ] Çakma Coderları Görmek İçin Tıkla!</a>
+<br> </br>
+<a href="#napirs">[ ⚠️ ] @napi-rs/canvas Hatası Alıyorsan Buraya Tıkla!</a>
+<br> </br>
 **Discord sunucularınızda kullanabileceğiniz setuplı son model v14 pm2 botları.**
 <br> </br>
 [![Discord Presence](https://lanyard-profile-readme.vercel.app/api/928259219038302258?theme=dark&hideDiscrim=false&hideBadges=false&bg=000000&borderRadius=35px&idleMessage=İletişim%20İçin%20Tıkla)](https://discord.com/users/928259219038302258)
@@ -83,8 +85,13 @@ npm install
 <img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111056777023328316/2023-05-24_22-45-34.png">
  
 
-  
-
+<br> </br>
+<h1>⚠️ @napi-rs/canvas Hatası</h1>
+<h2 id="napirs">Bu Hata İşletim Sisteminizle Alakalıdır,Windows Server 2012 vb. İşletim Sistemi Kullanıyorsanız Bu Hatayla Karşılaşırsınız.</h2>
+<img src="https://cdn.discordapp.com/attachments/950167988127006821/1111440762438172773/2023-05-26_02-45-14.png">
+<h2>Hatayı Çözmek İçin Güncel İşletim Sistemi Kullanın, Önerilen Windows Server 2019<h2>
+<br> </br>
+<br> </br>
 
 - [Discord Profilim](https://discord.com/users/928259219038302258)
 
