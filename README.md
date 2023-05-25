@@ -34,7 +34,7 @@ npm install
 <br> </br>
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Delicious+Handrawn&size=30&pause=1000&color=F700E5&repeat=false&width=435&lines=%F0%9F%96%BC%EF%B8%8F+G%C3%B6rseller)](#)
 
-<img id="zort" src="https://cdn.discordapp.com/attachments/950167988127006821/1090923072644722739/2023-03-30_11-49-54.png">
+<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1090923072644722739/2023-03-30_11-49-54.png">
 <img  src="https://cdn.discordapp.com/attachments/950167988127006821/1090923072153989140/2023-03-30_11-50-50.png">
 <img  src="https://cdn.discordapp.com/attachments/950167988127006821/1090923070660808704/2023-03-30_11-52-39.png">
 <img  src="https://cdn.discordapp.com/attachments/950167988127006821/1090923072430800956/2023-03-30_11-50-09.png">
