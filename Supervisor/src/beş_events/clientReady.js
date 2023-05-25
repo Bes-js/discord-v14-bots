@@ -46,12 +46,12 @@ if (voiceTop.length > 0) {
 }
 if (messageTop.length > 0) {
 mesaj.then(mr => {
-if(mr){mr.edit({content:`> **${client.emoji("emote_chat") !== null ? client.emoji("emote_chat"):"💭"} Mesaj Sıralaması <t:${Math.floor(Date.now()/1000)}:R> Güncellendi!**`,files:[{attachment:messageTopCanvas,name:"bes-was-here.png"}]})
+if(mr){mr.edit({content:`> **${client.emoji("emote_chat") !== null ? client.emoji("emote_chat"):"💭"} Mesaj Sıralaması <t:${Math.floor(Date.now()/1000)}:R> Güncellendi!**`,files:[{attachment:messageTopCanvas,name:"bes-was-here.png"}]}).catch(err => { })
 }});
 }
 if (voiceTop.length > 0) {
 ses.then(mr => {
-if(mr){mr.edit({content:`> **${client.emoji("emote_voice") !== null ? client.emoji("emote_voice"):"🔉"} Ses Sıralaması <t:${Math.floor(Date.now()/1000)}:R> Güncellendi!**`,files:[{attachment:voiceTopCanvas,name:"bes-was-here.png"}]})
+if(mr){mr.edit({content:`> **${client.emoji("emote_voice") !== null ? client.emoji("emote_voice"):"🔉"} Ses Sıralaması <t:${Math.floor(Date.now()/1000)}:R> Güncellendi!**`,files:[{attachment:voiceTopCanvas,name:"bes-was-here.png"}]}).catch(err => { })
 }});
 }
 }, 30000);
