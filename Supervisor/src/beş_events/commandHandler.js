@@ -5,7 +5,6 @@ const ms = require('ms');
 const db = client.db;
 module.exports = async (message) => {
     let chatChannel = await db.get("five-channel-chat");
-    if(chatChannel && message.channel.id == chatChannel) return;
     let unregisterRoles = await db.get("five-unregister-roles") || [];
     let jailRoles = await db.get("five-jail-roles") || [];
     if (beş_config.prefix && !message.content.startsWith(beş_config.prefix))return;
@@ -13,6 +12,7 @@ module.exports = async (message) => {
     const args = message.content.slice(1).trim().split(/ +/g);
     const commands = args.shift().toLowerCase();
     const cmd = client.commands.get(commands) || [...client.commands.values()].find((e) => e.aliases && e.aliases.includes(commands));
+    if(chatChannel && message.channel.id == chatChannel && !["snipe","tag","afk"].some(bes => cmd.name == bes)) return client.false(message);
     const beş_embed = new EmbedBuilder()
     .setColor(`#2b2d31`)
     .setAuthor({ name: message.member.displayName, iconURL: message.author.avatarURL({ dynamic: true, size: 2048 }) })
