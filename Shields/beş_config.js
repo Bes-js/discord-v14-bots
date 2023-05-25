@@ -1,4 +1,4 @@
-const {PermissionFlagsBits} = require('discord.js');
+const {PermissionFlagsBits} = require('discord.js')
 module.exports = {
 
 mainShield: "", // Main Botun Tokeni
