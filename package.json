@@ -16,7 +16,7 @@
         "discord-url": "^4.0.0",
         "request": "^2.88.2",
         "axios": "^1.4.0",
-        "canvafy": "^0.3.0",
+        "canvafy": "^5.0.0",
         "canvas": "^2.11.0",
         "child_process": "^1.0.2",
         "delay": "^5.0.0",
