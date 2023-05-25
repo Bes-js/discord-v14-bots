@@ -36,4 +36,4 @@ let five = [
     cwd: "./Welcome"
   },
 ]
-module.exports = {apps: five};
+module.exports = {apps: five}
