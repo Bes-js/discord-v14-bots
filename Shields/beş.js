@@ -296,6 +296,7 @@ ${codeBlock("fix", `${conf.prefix}kanal-kur ${oldChannel.id}`)}
 channelShield.on(Events.ChannelCreate, async (oldChannel) => {
     let logs = await oldChannel.guild.fetchAuditLogs({ limit: 1, type: AuditLogEvent.ChannelCreate });
     let entry = logs.entries.first();
+    let tür = { 2: "Ses Kanalı", 0: "Metin Kanalı", 5: "Duyuru Kanalı", 4: "Kategori", 13: "Sahne", 15: "Forum" }
     if (!entry || await mainBots(entry.executor.id) || entry.executor.id == oldChannel.guild.ownerId) return;
     if (await checkWhitelist(entry.executor.id)) {
         return await send(`
@@ -309,7 +310,6 @@ channelShield.on(Events.ChannelCreate, async (oldChannel) => {
     let member = await oldChannel.guild.members.fetch(entry.executor.id);
     let response = member.bannable ? "Ceza Uyguladım!" : "Yetkim Yetmediği İçin Ceza Uygulayamadım!"
     if (member && member.bannable) { await punish(channelShield, member.id, conf.Process.channelCreate) }
-    let tür = { 2: "Ses Kanalı", 0: "Metin Kanalı", 5: "Duyuru Kanalı", 4: "Kategori", 13: "Sahne", 15: "Forum" }
 
     oldChannel.delete({ reason: `Shield ~ İzinsiz Kanal Açma İşlemi!` })
 
