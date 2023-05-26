@@ -2,6 +2,8 @@
 
 <a href="#zort">[ 🤓 ] Çakma Coderları Görmek İçin Tıkla!</a>
 <br> </br>
+<a href="https://discord.gg/zSPzyGhtyP">[ ❓ ] Altyapıyı Kurdun Ve Hata Alıyorsan Buraya Tıkla!</a>
+<br> </br>
 <a href="#napirs">[ ⚠️ ] @napi-rs/canvas Hatası Alıyorsan Buraya Tıkla!</a>
 <br> </br>
 **Discord sunucularınızda kullanabileceğiniz setuplı son model v14 pm2 botları.**
