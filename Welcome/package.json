@@ -13,8 +13,8 @@
   "author": "Beş",
   "license": "GPL-3.0",
   "dependencies": {
-    "@discordjs/voice": "^0.14.0",
-    "discord.js": "^14.7.1",
+    "@discordjs/voice": "^0.16.0",
+    "discord.js": "^14.9.0",
     "ffmpeg-static": "^5.1.0",
     "play-dl": "^1.9.6",
     "tweetnacl": "^1.0.3"
