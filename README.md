@@ -86,12 +86,11 @@ npm install
 <img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111056776612294756/2023-05-24_22-45-50.png">
 <img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111056777023328316/2023-05-24_22-45-34.png">
  
-
 <br> </br>
 <h1>⚠️ @napi-rs/canvas Hatası</h1>
-<h2 id="napirs">Bu Hata İşletim Sisteminizle Alakalıdır,Windows Server 2012 vb. İşletim Sistemi Kullanıyorsanız Bu Hatayla Karşılaşırsınız.</h2>
+<h2 id="napirs">Hatanın msvc'den Kaynaklı Alttaki Linkten Gerekli Driver'ları Kurabilirsiniz.</h2>
 <img src="https://cdn.discordapp.com/attachments/950167988127006821/1111440762438172773/2023-05-26_02-45-14.png">
-<h2>Hatayı Çözmek İçin Güncel İşletim Sistemi Kullanın, Önerilen Windows Server 2019<h2>
+Driver'ı Yüklemek İçin; https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
 <br> </br>
 <br> </br>
 
