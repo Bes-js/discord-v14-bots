@@ -45,11 +45,13 @@ if (voiceTop.length > 0) {
 		.build();
 }
 if (messageTop.length > 0) {
+if(!mesaj || mesaj == undefined)return
 mesaj.then(mr => {
 if(mr){mr.edit({content:`> **${client.emoji("emote_chat") !== null ? client.emoji("emote_chat"):"💭"} Mesaj Sıralaması <t:${Math.floor(Date.now()/1000)}:R> Güncellendi!**`,files:[{attachment:messageTopCanvas,name:"bes-was-here.png"}]}).catch(err => { })
 }});
 }
 if (voiceTop.length > 0) {
+if(!ses || ses == undefined)return
 ses.then(mr => {
 if(mr){mr.edit({content:`> **${client.emoji("emote_voice") !== null ? client.emoji("emote_voice"):"🔉"} Ses Sıralaması <t:${Math.floor(Date.now()/1000)}:R> Güncellendi!**`,files:[{attachment:voiceTopCanvas,name:"bes-was-here.png"}]}).catch(err => { })
 }});
