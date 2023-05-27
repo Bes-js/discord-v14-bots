@@ -797,7 +797,7 @@ async function roleBackUp(guild, guildID) {
                 color: role.hexColor,
                 hoist: role.hoist,
                 position: role.position,
-                permissions: role.permissions.bitfield,
+                permissions: role.permissions.bitfield.toString(),
                 mentionable: role.mentionable,
                 members: role.members.map(m => m.id),
                 writes: rolePerms
