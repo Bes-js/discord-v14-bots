@@ -44,7 +44,7 @@ module.exports = {
                                 : `> ${client.progressBar(x.completedCount, x.count, 7)} \`${x.type === "ses"
                                     ? `${moment.duration(x.completedCount).format("H [Saat], m [Dk], s [Sn]")} / ${moment.duration(x.count).format("H [Saat], m [Dk], s [Sn]")}`
                                     : `${x.completedCount} / ${x.count}`
-                                }\` \n> **Kalan Süre: \`${x.finishDate - Date.now() > 0 ? moment.duration(x.finishDate - Date.now()).format("H [Saat], m [Dakika] s [Saniye]") : "Süresiz (Sınırsız)"}\`**\n> **Ödül:  \`${x.prizeCount} Soul\`**`
+                                }\` \n> **Kalan Süre: \`${x.finishDate - Date.now() > 0 ? moment.duration(x.finishDate - Date.now()).format("H [Saat], m [Dakika] s [Saniye]") : "Süresiz (Sınırsız)"}\`**\n> **Ödül:  \`${x.prizeCount} Puan\`**`
                             }`
                     )
                     .join("\n\n")}
