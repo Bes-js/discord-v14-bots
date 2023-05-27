@@ -91,6 +91,8 @@ npm install
 <h2 id="napirs">Hatanın msvc'den Kaynaklı Alttaki Linkten Gerekli Driver'ları Kurabilirsiniz.</h2>
 <img src="https://cdn.discordapp.com/attachments/950167988127006821/1111440762438172773/2023-05-26_02-45-14.png">
 Driver'ı Yüklemek İçin; https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
+Driver Yüklendikten Sonra Makinenizi/Bilgisayarınızı Yeniden Başlatınız.
+Hata Düzelicektir.
 <br> </br>
 <br> </br>
 
