@@ -66,39 +66,39 @@ client.on(Events.InteractionCreate, async (beş) => {
     let value = beş.customId;
     if (value == "channelBackup") {
         if (!beş.member.permissions.has(PermissionFlagsBits.Administrator)) return beş.reply({ content: `> **Komudu Kullanmak İçin Yetkin Yetersiz!**`, ephemeral: true })
-        channelBackUp(beş.guild, beş.guild.id)
         beş.message.edit({ content: `> **İşlem Başarılı!** *Kanalların Yedekleri Alınıyor..*`, embeds: [], components: [], ephemeral: true })
         beş.reply({ content: `> **Kanalların Yedekleri Alınıyor!**`, ephemeral: true })
+        channelBackUp(beş.guild, beş.guild.id)
     } else if (value == "roleBackup") {
         if (!beş.member.permissions.has(PermissionFlagsBits.Administrator)) return beş.reply({ content: `> **Komudu Kullanmak İçin Yetkin Yetersiz!**`, ephemeral: true })
-        roleBackUp(beş.guild, beş.guild.id)
         beş.message.edit({ content: `> **İşlem Başarılı!** *Rollerin Yedekleri Alınıyor..*`, embeds: [], components: [], ephemeral: true })
         beş.reply({ content: `> **Rollerin Yedekleri Alınıyor!**`, ephemeral: true })
+        roleBackUp(beş.guild, beş.guild.id)
     } else if (value == "allBackup") {
         if (!beş.member.permissions.has(PermissionFlagsBits.Administrator)) return beş.reply({ content: `> **Komudu Kullanmak İçin Yetkin Yetersiz!**`, ephemeral: true })
-        channelBackUp(beş.guild, beş.guild.id)
-        roleBackUp(beş.guild, beş.guild.id)
         beş.message.edit({ content: `> **İşlem Başarılı!** *Kanalların Ve Rollerin Yedekleri Alınıyor..*`, embeds: [], components: [], ephemeral: true })
         beş.reply({ content: `> **Rol Ve Kanalların Yedekleri Alınıyor!**`, ephemeral: true })
+        channelBackUp(beş.guild, beş.guild.id)
+        roleBackUp(beş.guild, beş.guild.id)
     } else if (value == "ytLock") {
         if (!beş.member.permissions.has(PermissionFlagsBits.Administrator)) return beş.reply({ content: `> **Komudu Kullanmak İçin Yetkin Yetersiz!**`, ephemeral: true })
+        beş.message.edit({ content: `> **İşlem Başarılı!** *Yetkiler Veritabanına Kaydedildi Ve İzinleri Kapatılıyor..*`, embeds: [], components: [], ephemeral: true })
+        beş.reply({ content: `> **Yönetici Yetkisine Sahip ${beş.guild.roles.cache.filter(role => role.permissions.has(PermissionFlagsBits.Administrator) && !role.managed).map((bes) => `<@&${bes.id}>`).join(",")} Rollerin İzinleri Kapatılıyor!**`, ephemeral: true })
         beş.guild.roles.cache.filter(role => role.permissions.has(PermissionFlagsBits.Administrator) && !role.managed).forEach(role => {
             db.push(`ytPerms_${beş.guild.id}`, role.id)
         })
-        beş.message.edit({ content: `> **İşlem Başarılı!** *Yetkiler Veritabanına Kaydedildi Ve İzinleri Kapatılıyor..*`, embeds: [], components: [], ephemeral: true })
-        beş.reply({ content: `> **Yönetici Yetkisine Sahip ${beş.guild.roles.cache.filter(role => role.permissions.has(PermissionFlagsBits.Administrator) && !role.managed).map((bes) => `<@&${bes.id}>`).join(",")} Rollerin İzinleri Kapatılıyor!**`, ephemeral: true })
         beş.guild.roles.cache.filter(rol => rol.editable).filter(rol => rol.permissions.has(PermissionFlagsBits.Administrator)).forEach(async (rol) => rol.setPermissions(0n));
     } else if (value == "ytUnlock") {
         if (!beş.member.permissions.has(PermissionFlagsBits.Administrator)) return beş.reply({ content: `> **Komudu Kullanmak İçin Yetkin Yetersiz!**`, ephemeral: true })
         let data = await db.get(`ytPerms_${beş.guild.id}`) || []
         if (data.length <= 0) return beş.reply({ content: `> **Veri Tabanında Kayıtlı Yetkili Permleri Bulunmamakta!**`, ephemeral: true })
+         beş.message.edit({ content: `> **İşlem Başarılı!** *Veritabanındaki Yetkilerin İzinleri Açılıyor..*`, embeds: [], components: [], ephemeral: true })
+         beş.reply({ content: `> **Önceden Yönetici Yetkisine Sahip ${data.length} Adet ${data.map((bes) => `<@&${bes}>`).join(",")} Rollerinin İzinleri Geri Açılıyor!**`, ephemeral: true })
         if (data.length > 0) {
             for (let i = 0; i < data.length; i++) {
                 let bes = data[i];
                 beş.guild.roles.cache.get(bes).setPermissions(8n).catch(err => { });
             }
-            beş.message.edit({ content: `> **İşlem Başarılı!** *Veritabanındaki Yetkilerin İzinleri Açılıyor..*`, embeds: [], components: [], ephemeral: true })
-            beş.reply({ content: `> **Önceden Yönetici Yetkisine Sahip ${data.length} Adet ${data.map((bes) => `<@&${bes}>`).join(",")} Rollerinin İzinleri Geri Açılıyor!**`, ephemeral: true })
             db.delete(`ytPerms_${beş.guild.id}`)
         }
     } else if (value == "exit") {
@@ -135,7 +135,7 @@ async function roleBackUp(guild, guildID) {
                 color: role.hexColor,
                 hoist: role.hoist,
                 position: role.position,
-                permissions: role.permissions.bitfield,
+                permissions: role.permissions.bitfield.toString(),
                 mentionable: role.mentionable,
                 members: role.members.map(m => m.id),
                 writes: rolePerms
