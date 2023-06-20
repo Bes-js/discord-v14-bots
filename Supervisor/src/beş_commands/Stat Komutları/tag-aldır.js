@@ -27,7 +27,7 @@ module.exports = {
         if(!member)return message.reply({embeds:[beş_embed.setDescription(`> **Geçerli Bir User Belirt!**`)]}).sil(5);
         let tagData = await db.get("five-tags") || [];
         if(!tagData.length > 0) return message.reply({ embeds:[beş_embed.setDescription(`> **Bu Sunucuda Tag Bulunmamakta!**`)]}).sil(5);
-        if(tagData.some(tag => member.user.username.includes(tag))){
+        if(tagData.some(tag => member.user.displayName.includes(tag))){
             const taggedData = await taggeds.findOne({ guildId: member.guild.id, userId: message.member.id });
             if (taggedData && taggedData.Data.includes(member.user.id)) return message.reply({ embeds: [beş_embed.setDescription("> **Bu Üyeye Zaten Daha Önceden Tag Aldırılmış!**")] });
             const buttons = new ActionRowBuilder().addComponents(
