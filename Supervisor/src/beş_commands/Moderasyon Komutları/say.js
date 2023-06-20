@@ -16,6 +16,6 @@ module.exports = {
     let sesli = message.guild.members.cache.filter(x => !x.user.bot && x.voice.channel).size
     let boost = message.guild.premiumSubscriptionCount;
     
-    message.reply({ embeds: [beş_embed.setDescription(`> **Sunucumuzda Toplam ${client.sayıEmoji(uye)} Üye Bulunuyor!**\n> **Toplam ${client.sayıEmoji(aktif)} Aktif Kişi Bulunuyor!**\n> **Toplam ${client.sayıEmoji(sesli)} \`(+${bot} Bot)\` Kişi Seste Bulunuyor!**\n> **${client.sayıEmoji(boost)} Adet Boost Bulunmakta!**${message.guild.members.cache.filter(u => tagData.some(bes => u.user.tag.includes(bes))).size > 0 ? `\n> **Toplam ${client.sayıEmoji(message.guild.members.cache.filter(u => tagData.some(bes => u.user.tag.includes(bes))).size)} Taglı Üyemiz Bulunmakta!**`: ""}`).setThumbnail(message.guild.iconURL({dynamic:true})).setTitle(`İstatistik`).setURL(`${message.url}`)] });
+    message.reply({ embeds: [beş_embed.setDescription(`> **Sunucumuzda Toplam ${client.sayıEmoji(uye)} Üye Bulunuyor!**\n> **Toplam ${client.sayıEmoji(aktif)} Aktif Kişi Bulunuyor!**\n> **Toplam ${client.sayıEmoji(sesli)} \`(+${bot} Bot)\` Kişi Seste Bulunuyor!**\n> **${client.sayıEmoji(boost)} Adet Boost Bulunmakta!**${message.guild.members.cache.filter(u => tagData.some(bes => u.user.displayName.includes(bes))).size > 0 ? `\n> **Toplam ${client.sayıEmoji(message.guild.members.cache.filter(u => tagData.some(bes => u.user.displayName.includes(bes))).size)} Taglı Üyemiz Bulunmakta!**`: ""}`).setThumbnail(message.guild.iconURL({dynamic:true})).setTitle(`İstatistik`).setURL(`${message.url}`)] });
     }
 }
