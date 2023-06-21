@@ -33,8 +33,9 @@ class BEŞ extends Client {
          process.on("uncaughtException", (err) => { });
          process.on("unhandledRejection", (err) => { console.log(err) });
          process.on("warning", (warn) => { console.log(warn) });
-         process.on("beforeExit", () => { console.log('Sistem kapatılıyor...'); });
-         this.on(Events.Error,(err) => { console.log("Beklenmedik Bir Hata Gerçekleşti; "+err) });
+         process.on("beforeExit", () => { console.log("Sistem Kapanıyor!")});
+         this.on("rateLimit", (rate) => { console.log("Client Rate Limit'e Uğradı; "+rate)})
+         this.on(Events.Error,(err) => { });
          this.on(Events.Warn,(warn) => { })
         
     }
