@@ -2,7 +2,8 @@
 
 <h2>🟢 20.06.2023 - Discord'daki Yeni Tag Sistemine Göre Düzenlenmiştir.</h2>
 <br> </br>
-
+<h2>⚠️ Yeni discord.js Sürekli Path Yemektedir Eğer npm i Yaparken Hata Alıyorsanız npm Üzerinden discord.js'in Güncel Dev Sürümünü İndirin Düzelicektir.</h2>
+<br> </br>
 <a href="#zort">[ 🤓 ] Çakma Coderları Görmek İçin Tıkla!</a>
 <br> </br>
 <a href="https://discord.gg/zSPzyGhtyP">[ ❓ ] Altyapıyı Kurdun Ve Hata Alıyorsan Buraya Tıkla!</a>
