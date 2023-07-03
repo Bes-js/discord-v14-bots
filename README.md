@@ -10,9 +10,10 @@
 <br> </br>
 <a href="#napirs">[ ⚠️ ] @napi-rs/canvas Hatası Alıyorsan Buraya Tıkla!</a>
 <br> </br>
-**Discord sunucularınızda kullanabileceğiniz setuplı son model v14 pm2 botları.**
+<strong>Discord sunucularınızda kullanabileceğiniz setuplı son model v14 pm2 botları.</strong>
 <br> </br>
-[![Discord Presence](https://lanyard-profile-readme.vercel.app/api/928259219038302258?theme=dark&hideDiscrim=false&hideBadges=false&bg=000000&borderRadius=35px&idleMessage=İletişim%20İçin%20Tıkla)](https://discord.com/users/928259219038302258)
+
+[![Discord Presence](https://luppufy.onrender.com/member/928259219038302258?border=ff0000&theme=000000)](https://discord.com/users/928259219038302258)
 <br> </br>
 [![Discord Banner](https://api.weblutions.com/discord/invite/luppux/)](https://discord.gg/luppux)
 <br> </br>
