@@ -13,7 +13,7 @@ module.exports = {
         let staffData = await db.get("five-ban-staff") || [];
         if (!staffData.length > 0) console.error("Ban Yetkilisi Ayarlı Değil!");
         if (!staffData.some(beş => message.member.roles.cache.get(beş)) && !message.member.permissions.has(PermissionFlagsBits.Administrator) && !message.member.permissions.has(PermissionFlagsBits.BanMembers)) return message.reply({ embeds: [beş_embed.setDescription(`> **Komutu Kullanmak İçin Yetkin Bulunmamakta!**`)] }).sil(5);
-
+        return message.reply({content:`> **\`discord-giveaways\` Paketi Dev Sürümüyle Uyumlu Çalışmadığı İçin Çekiliş Sistemi Durdurulmuştur!**`})
 
         let buttons = new ActionRowBuilder().addComponents(
             new StringSelectMenuBuilder()
