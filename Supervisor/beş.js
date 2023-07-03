@@ -54,7 +54,7 @@ const mongoose = require("mongoose");
 mongoose.connect(beş_config.mongoURL,{useUnifiedTopology: true,useNewUrlParser: true}).catch((err) => { console.log("🔴 MONGO_URL Bağlantı Hatası"); });
 mongoose.connection.on("connected", () => {console.log(`🟢 MONGO_URL Başarıyla Bağlanıldı`);});
 mongoose.connection.on("error", (err) => {console.error("🔴 MONGO_URL Bağlantı Hatası; "+err);});
-
+/*
 const { GiveawaysManager } = require('discord-giveaways');
 const manager = new GiveawaysManager(client, {
   storage: './util/giveaways.json',
@@ -73,7 +73,7 @@ const manager = new GiveawaysManager(client, {
   }
 });
 client.giveawaysManager = manager;
-
+*/
 async function cMuteCheck() {
   let guild = await client.guilds.fetch(beş_config.guildID)
   let data = db.all().filter(i => i.ID.startsWith("cmuted-"))
