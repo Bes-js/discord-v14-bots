@@ -25,7 +25,7 @@ module.exports = {
 
         const category = async (parentsArray) => {
             const data = await voiceUserParent.find({ guildId: message.guild.id, userID: member.user.id });
-            const voiceUserParentData = data.filter((x) => parentsArray.includes(x.parentID));
+            const voiceUserParentData = data.filter((x) => parentsArray.includes(x.parentId));
             let voiceStat = 0;
             for (var i = 0; i <= voiceUserParentData.length; i++) { voiceStat += voiceUserParentData[i] ? voiceUserParentData[i].parentData : 0; }
             return moment.duration(voiceStat).format("H [Saat], m [Dakika], s [Saniye]");
