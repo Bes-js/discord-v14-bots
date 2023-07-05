@@ -1,6 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Delicious+Handrawn&size=60&pause=1000&color=00F743&repeat=false&width=800&height=100&lines=Discord+V14+PM2+Bots+%23By+Be%C5%9F)](#)
 
-<h2>🟢 20.06.2023 - Discord'daki Yeni Tag Sistemine Göre Düzenlenmiştir.</h2>
+<h2>🟢 20.06.2023 - Discord'daki Yeni Tag Sistemine Göre Düzenlenmiştir!</h2>
 <br> </br>
 <h2>⚠️ Yeni discord.js Sürekli Path Yemektedir Eğer npm i Yaparken Hata Alıyorsanız npm Üzerinden discord.js'in Güncel Dev Sürümünü İndirin Düzelicektir.</h2>
 <br> </br>
