@@ -24,7 +24,7 @@ module.exports = {
        let kadın = await db.get(`kadın-${member.id}`) || 0;
 
         const category = async (parentsArray) => {
-            const data = await voiceUserParent.find({ guildId: message.guild.id, userID: member.user.id });
+            const data = await voiceUserParent.find({ guildId: message.guild.id, userId: member.user.id });
             const voiceUserParentData = data.filter((x) => parentsArray.includes(x.parentId));
             let voiceStat = 0;
             for (var i = 0; i <= voiceUserParentData.length; i++) { voiceStat += voiceUserParentData[i] ? voiceUserParentData[i].parentData : 0; }
