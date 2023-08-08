@@ -1,5 +1,5 @@
 const client = global.client;
-const { EmbedBuilder, Events } = require("discord.js");
+const { EmbedBuilder, Events, codeBlock } = require("discord.js");
 const beş_config = require("../../beş_config");
 const db = client.db;
 const ms = require('ms');
