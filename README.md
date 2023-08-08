@@ -13,7 +13,7 @@
 <strong>Discord sunucularınızda kullanabileceğiniz setuplı son model v14 pm2 botları.</strong>
 <br> </br>
 
-[![Discord Presence](https://luppufy.onrender.com/member/928259219038302258?border=ff0000&theme=000000)](https://discord.com/users/928259219038302258)
+[![Discord Presence](https://luppufy-api.onrender.com/member/928259219038302258?border=ff0000&theme=000000)](https://discord.com/users/928259219038302258)
 <br> </br>
 [![Discord Banner](https://api.weblutions.com/discord/invite/luppux/)](https://discord.gg/luppux)
 <br> </br>
