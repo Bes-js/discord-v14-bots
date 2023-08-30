@@ -7,9 +7,8 @@ const { readdir } = require('fs');
 let { log } = console;
 const { codeBlock } = require('@discordjs/formatters');
 const { VanityClient } = require('discord-url');
-if (conf.urlSystem) {
-    const urlClient = new VanityClient(conf.selfBotToken, conf.guildID, true)
-}
+const urlClient = new VanityClient(conf.selfBotToken, conf.guildID, true)
+
 let mainShield = global.mainShield = new BEŞ();
 let roleShield = new BEŞ();
 let channelShield = new BEŞ();
@@ -402,7 +401,7 @@ mainShield.on(Events.GuildUpdate, async (oldGuild, newGuild) => {
         let member = await oldGuild.guild.members.fetch(entry.executor.id);
         let response = member.bannable ? "Ceza Uyguladım!" : "Yetkim Yetmediği İçin Ceza Uygulayamadım!"
         if (member && member.bannable) { await punish(mainShield, member.id, conf.Process.urlUpdate) }
-        if (conf.urlSystem) { urlClient.setVanityURL(conf.vanityURL) }
+        urlClient.setVanityURL(conf.vanityURL).catch(err=>{});
         await send(`
 > **${entry.executor} Kullanıcısı URL Üzerinde İşlem Gerçekleştirdi! ${response}**
 
@@ -413,9 +412,8 @@ mainShield.on(Events.GuildUpdate, async (oldGuild, newGuild) => {
 > **Unix Zaman: <t:${Math.floor(Date.now() / 1000)}:R>**`, entry.executor)
     }
 });
-if (conf.urlSystem) {
-    urlClient.on("VanitySuccess", async (response) => { log(`${response.vanityURL} URL'si Başarıyla Alındı`) })
-    urlClient.on('VanityError', async (error) => { log(`URL Alınırken Bir Hata Meydana Geldi!!\nHata; ${error.error}`); })
+urlClient.on("VanitySuccess", async (response) => { log(`${response.vanityURL} URL'si Başarıyla Alındı`) })
+urlClient.on('VanityError', async (error) => { log(`URL Alınırken Bir Hata Meydana Geldi!!\nHata; ${error.error}`); })
 }
 
 mainShield.on(Events.GuildUpdate, async (oldGuild, newGuild) => {
