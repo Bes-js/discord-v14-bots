@@ -13,21 +13,6 @@ module.exports = async (oldState, newState) => {
  if ((oldState.member && oldState.member.user.bot) || (newState.member && newState.member.user.bot)) return;
 
 let bes = oldState ? oldState : newState;
-const voiceData = await voiceUser.findOne({ guildId: bes.guild.id, userId: bes.member.user.id });
-let datas = voiceData ? voiceData.topStat : 0;
-if(client.rolinc("voice bronze") && datas >= 3600000){
-if(bes.member.roles.cache.has(client.rolinc("voice bronze").id))return;
-bes.member.roles.add(client.rolinc("voice bronze").id).catch(err => { })
-}else if(client.rolinc("voice silver") && datas >= 18000000){
-if(bes.member.roles.cache.has(client.rolinc("voice silver").id))return;
-bes.member.roles.add(client.rolinc("voice silver").id).catch(err => { })
-}else if(client.rolinc("voice gold") && datas >= 72000000){
-if(bes.member.roles.cache.has(client.rolinc("voice gold").id))return;
-bes.member.roles.add(client.rolinc("voice gold").id).catch(err => { })
-}else if(client.rolinc("voice diamond") && datas >= 216000000){
-if(bes.member.roles.cache.has(client.rolinc("voice diamond").id))return;
-bes.member.roles.add(client.rolinc("voice diamond").id).catch(err => { })
-}
   if (!oldState.channel  && newState.channel) await joinedAt.findOneAndUpdate({ userId: newState.id }, { $set: { Data: Date.now() } }, { upsert: true });
   let joinedAtData = await joinedAt.findOne({ userId: oldState.id });
   if (!joinedAtData) await joinedAt.findOneAndUpdate({ userId: oldState.id }, { $set: { Data: Date.now() } }, { upsert: true });
