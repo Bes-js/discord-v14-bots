@@ -11,29 +11,6 @@ module.exports = async (message) => {
 const prefix = message.content.toLowerCase().startsWith(beş_config.prefix);
 if (message.author.bot || !message.guild || prefix || message.content == null) return;
 
-const messageData = await messageUser.findOne({ guildId: message.guild.id, userId: message.member.user.id });
-let data = messageData ? messageData.topStat : 0;
-if(client.rolinc("chat bronze") && data >= 200 && data < 750){
-if(message.member.roles.cache.has(client.rolinc("chat bronze").id))return;
-message.member.roles.add(client.rolinc("chat bronze").id).catch(err => { })
-message.reply({content:`> **🥉 Bronz Chat Seviyesine Ulaştın!**`})
-}
-if(client.rolinc("chat silver") && data >= 750 && data < 1750){
-if(message.member.roles.cache.has(client.rolinc("chat silver").id))return;
-message.member.roles.add(client.rolinc("chat silver").id).catch(err => { })
-message.reply({content:`> **🥈 Gümüş Chat Seviyesine Ulaştın!**`})
-}
-if(client.rolinc("chat gold") && data >= 1750 && data < 5000){
-if(message.member.roles.cache.has(client.rolinc("chat gold").id))return;
-message.member.roles.add(client.rolinc("chat gold").id).catch(err => { })
-message.reply({content:`> **🥇 Altın Chat Seviyesine Ulaştın!**`})
-}
-if(client.rolinc("chat diamond") && data >= 5000){
-if(message.member.roles.cache.has(client.rolinc("chat diamond").id))return;
-message.member.roles.add(client.rolinc("chat diamond").id).catch(err => { })
-message.reply({content:`> **💎 Elmas Chat Seviyesine Ulaştın!**`})
-}
-
 	if (beş_config.taskSystem && beş_config.staffs.some((x) => message.member.roles.cache.has(x))) {
 		const num = nums.get(message.author.id);
 		if (num && num % 2 === 0) {
