@@ -8,7 +8,7 @@ module.exports = async (oldMessage,newMessage) => {
     if(chatChannel && newMessage.channel.id == chatChannel) return;
     let unregisterRoles = await db.get("five-unregister-roles") || [];
     let jailRoles = await db.get("five-jail-roles") || [];
-    if (beş_config.prefix && !newMessage.content.startsWith(beş_config.prefix))return;
+    if (beş_config.prefix && !newMessage.content.startsWith(beş_config.prefix) || newMessage.guild.id !== beş_config.guildID)return;
     if(unregisterRoles.length > 0 && jailRoles.length > 0 && unregisterRoles.some(bes => newMessage.member.roles.cache.has(bes)) && jailRoles.some(bes => newMessage.member.roles.cache.has(bes)))return client.false(newMessage);
     const args = newMessage.content.slice(1).trim().split(/ +/g);
     const commands = args.shift().toLowerCase();
