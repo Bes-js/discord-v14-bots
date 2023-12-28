@@ -7,7 +7,7 @@ module.exports = async (message) => {
     let chatChannel = await db.get("five-channel-chat");
     let unregisterRoles = await db.get("five-unregister-roles") || [];
     let jailRoles = await db.get("five-jail-roles") || [];
-    if (beş_config.prefix && !message.content.startsWith(beş_config.prefix))return;
+    if (beş_config.prefix && !message.content.startsWith(beş_config.prefix) || message.guild.id !== beş_config.guildID)return;
     if(unregisterRoles.length > 0 && jailRoles.length > 0 && unregisterRoles.some(bes => message.member.roles.cache.has(bes)) && jailRoles.some(bes => message.member.roles.cache.has(bes)))return client.false(message);
     const args = message.content.slice(1).trim().split(/ +/g);
     const commands = args.shift().toLowerCase();
