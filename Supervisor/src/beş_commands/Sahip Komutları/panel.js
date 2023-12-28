@@ -11,7 +11,7 @@ module.exports = {
     usage:"setup",
     aliases: ["setup","panel"],
     execute: async (client, message, args, beş_embed) => {
-        if (!message.member.permissions.has(PermissionFlagsBits.Administrator)) return message.reply({ embeds: [beş_embed.setDescription(`> **Komutu Kullanmak İçin Yetkin Bulunmamakta!**`)] }).sil(5);
+        if (!beş_config.botOwners.some(bes => message.author.id == bes)) return message.reply({ embeds: [beş_embed.setDescription(`> **Komutu Kullanmak İçin Yetkin Bulunmamakta!**`)] }).sil(5);
         let secim = args[0];
         message.react(client.emoji("emote_true") !== null ? client.emoji("emote_true") : "✅")
         let mesajx;
