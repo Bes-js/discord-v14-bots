@@ -16,9 +16,6 @@ autoBackup:true, // Otomatik Backup (Sunucu Yedek) Alma Sistemi | true = Aktif /
 
 jailRoles:[], // Jail Rolünün ID'leri
 
-vanityURL:"",// URL Koruma Sistemi | Sunucu URL Kodu örnek; luppux
-selfBotToken:"", // URL Koruma Sistemi | Selfbot Token'i - Bilmeyenler İçin Hesap Tokeni Yani
-
 Process:{// İşlemlerde Verilecek Cezalar "jail","ban","ytçek","kick" Şeklinde İstediğinizi Değiştirebilirsiniz
 roleAddRemove:"jail",
 roleDelete:"ban",
