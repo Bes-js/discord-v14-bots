@@ -6,8 +6,7 @@ const { YamlDatabase } = require('five.db');
 const { readdir } = require('fs');
 let { log } = console;
 const { codeBlock } = require('@discordjs/formatters');
-const { VanityClient } = require('discord-url');
-const urlClient = new VanityClient(conf.selfBotToken, conf.guildID, true)
+
 
 let mainShield = global.mainShield = new BEŞ();
 let roleShield = new BEŞ();
@@ -401,7 +400,6 @@ mainShield.on(Events.GuildUpdate, async (oldGuild, newGuild) => {
         let member = await oldGuild.guild.members.fetch(entry.executor.id);
         let response = member.bannable ? "Ceza Uyguladım!" : "Yetkim Yetmediği İçin Ceza Uygulayamadım!"
         if (member && member.bannable) { await punish(mainShield, member.id, conf.Process.urlUpdate) }
-        urlClient.setVanityURL(conf.vanityURL).catch(err=>{});
         await send(`
 > **${entry.executor} Kullanıcısı URL Üzerinde İşlem Gerçekleştirdi! ${response}**
 
@@ -412,9 +410,7 @@ mainShield.on(Events.GuildUpdate, async (oldGuild, newGuild) => {
 > **Unix Zaman: <t:${Math.floor(Date.now() / 1000)}:R>**`, entry.executor)
     }
 });
-urlClient.on("VanitySuccess", async (response) => { log(`${response.vanityURL} URL'si Başarıyla Alındı`) })
-urlClient.on('VanityError', async (error) => { log(`URL Alınırken Bir Hata Meydana Geldi!!\nHata; ${error.error}`); })
-}
+
 
 mainShield.on(Events.GuildUpdate, async (oldGuild, newGuild) => {
     if ((oldGuild.splash !== newGuild.splash) || (oldGuild.iconURL() !== newGuild.iconURL()) || (oldGuild.name !== newGuild.name) || (oldGuild.bannerURL() !== newGuild.bannerURL())) {
