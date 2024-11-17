@@ -1,10 +1,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Delicious+Handrawn&size=60&pause=1000&color=00F743&repeat=false&width=800&height=100&lines=Discord+V14+PM2+Bots+%23By+Be%C5%9F)](#)
-<h3>🟡 26.06.24 Veritabanı Ve Bazı Kısımlar Güncellenicektir, Altyapı Stabil Hale Getirilicek, Repoyu Takipte Kalın.</h3>
-<br> </br>
 <br> </br>
 <h2>🟢 20.06.23 - Discord'daki Yeni Tag Sistemine Göre Düzenlenmiştir.</h2>
 <br> </br>
-<a href="#zort">[ 🤓 ] Çakma Coderları Görmek İçin Tıkla!</a>
 <br> </br>
 <a href="https://discord.gg/zSPzyGhtyP">[ ❓ ] Altyapıyı Kurdun Ve Hata Alıyorsan Buraya Tıkla!</a>
 <br> </br>
@@ -39,61 +36,9 @@ npm install
 - Yetki Yükseltimide Githubdan Bi Repodan Kopyaladım Unuttum Adını,Herkeste Olan Şey İşte.
 <br> </br>
 <br> </br>
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Delicious+Handrawn&size=30&pause=1000&color=F700E5&repeat=false&width=435&lines=%F0%9F%96%BC%EF%B8%8F+G%C3%B6rseller)](#)
-
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1090923072644722739/2023-03-30_11-49-54.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1090923072153989140/2023-03-30_11-50-50.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1090923070660808704/2023-03-30_11-52-39.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1090923072430800956/2023-03-30_11-50-09.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1090923070388187137/2023-03-30_11-53-32.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019623370993684/2023-05-24_22-52-44.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019623085776916/2023-05-24_22-53-00.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019622808948898/2023-05-24_22-53-25.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019622574076084/2023-05-24_22-54-15.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019603276087406/2023-05-24_22-49-44.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019602986664047/2023-05-24_22-49-59.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019602634350694/2023-05-24_22-50-15.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019602328174602/2023-05-24_22-50-28.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019602072305775/2023-05-24_22-50-51.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019601736769576/2023-05-24_22-51-04.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019601459953674/2023-05-24_22-51-20.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019601166336071/2023-05-24_22-51-40.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019600843382954/2023-05-24_22-52-19.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111019600604315688/2023-05-24_22-52-33.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017991707033701/2023-05-10_00-42-57.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017991077888060/2023-05-10_13-58-26.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017991396659340/2023-05-10_13-58-10.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017906407493682/2023-05-01_23-34-57.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017906227134504/2023-05-02_13-18-26.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017906029989918/2023-05-02_13-18-38.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017905824485526/2023-05-03_17-47-06.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017905585405952/2023-05-04_15-51-31.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017905375678554/2023-05-07_17-03-27.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017905065316512/2023-05-07_17-10-29.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017904843014225/2023-05-07_17-10-49.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017904566177822/2023-05-10_00-42-57.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111017904293564446/2023-05-10_13-57-59.png">
-
-
-<h1 id="zort">Bu Altyapıyı Normalde Chavo'la Burjuva'ya Yapmıştım, Ama Görünen O Ki Heryerde Herkese Altyapıyı Biz Yazdık Diyorlarmış,Siktirin Ordan mq</h1>
-<h1>Kodla İlgili Bi Sik Bilmeyenlere Altyapımı Kaptırtmam!</h1>
-
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111023648590016592/2023-05-24_23-10-15.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111022997130719313/2023-05-24_23-07-01.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111022997361393714/2023-05-24_23-05-05.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111022997562740766/2023-05-24_23-04-21.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111022997789225031/2023-05-24_23-03-03.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111022997998927912/2023-05-24_23-02-04.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111022998271578142/2023-05-23_23-17-11.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111022998510645248/2023-05-18_15-22-25.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111056776612294756/2023-05-24_22-45-50.png">
-<img  src="https://cdn.discordapp.com/attachments/950167988127006821/1111056777023328316/2023-05-24_22-45-34.png">
- 
-<br> </br>
 <h1>⚠️ @napi-rs/canvas Hatası</h1>
 <h2 id="napirs">Hatanın msvc'den Kaynaklı Alttaki Linkten Gerekli Driver'ları Kurabilirsiniz.</h2>
-<img src="https://cdn.discordapp.com/attachments/950167988127006821/1111440762438172773/2023-05-26_02-45-14.png">
-Driver'ı Yüklemek İçin; https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
+Driver'ı Yüklemek İçin; https://fivesobes.gitbook.io/canvafy/welcome/resolve-errors
 Driver Yüklendikten Sonra Makinenizi/Bilgisayarınızı Yeniden Başlatınız.
 Hata Düzelicektir.
 <br> </br>
